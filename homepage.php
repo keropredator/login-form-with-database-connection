@@ -10,9 +10,13 @@ include("connect.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Homepage</title>
 </head>
 <body>
+    <h1 style="text-align:center; padding:5%;">Welcome to Homepage</h1>
+    <h2 style="text-align:center; padding:5%;">You are logged in successfully</h2>
+    
     <div style="text-align:center; padding:15%;">
       <p  style="font-size:50px; font-weight:bold;">
        Hello  <?php 
@@ -28,5 +32,7 @@ include("connect.php");
       </p>
       <a href="logout.php">Logout</a>
     </div>
+
+
 </body>
 </html>

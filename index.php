@@ -31,15 +31,9 @@
             <input type="password" name="password" id="password" placeholder="Password" required>
             <label for="password">Password</label>
         </div>
-       <input type="submit" class="btn" value="Sign Up" name="signUp">
+      <input type="submit" class="btn" value="Sign Up" name="signUp">
       </form>
-      <p class="or">
-        ----------or--------
-      </p>
-      <div class="icons">
-        <i class="fab fa-google"></i>
-        <i class="fab fa-facebook"></i>
-      </div>
+
       <div class="links">
         <p>Already Have Account ?</p>
         <button id="signInButton">Sign In</button>
@@ -60,19 +54,13 @@
               <label for="password">Password</label>
           </div>
           <p class="recover">
-            <a href="#">Recover Password</a>
+            <a href="#">Forget Password</a>
           </p>
-         <input type="submit" class="btn" value="Sign In" name="signIn">
+        <input type="submit" class="btn" value="Sign In" name="signIn">
         </form>
-        <p class="or">
-          ----------or--------
-        </p>
-        <div class="icons">
-          <i class="fab fa-google"></i>
-          <i class="fab fa-facebook"></i>
-        </div>
+
         <div class="links">
-          <p>Don't have account yet?</p>
+          <p>Don't have account ?</p>
           <button id="signUpButton">Sign Up</button>
         </div>
       </div>
